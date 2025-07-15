@@ -7,7 +7,14 @@
 </head>
 <body>
     <header>
-
+        <div class="logo">Vitor Store</div>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>Produtos</li>
+                <li>Contatos</li>
+            </ul>
+        </nav>
     </header>
 
     <main class="container">
@@ -21,16 +28,67 @@
         <div class="list">
             <div class="item active">
                 <div class="product-img">
-                    <img src="" alt="">
+                    <img src="img/apple-watch.png" alt="imagem de relógio">
+                </div>
+
+                <div class="content">
+                    <p class="product-tag">Novo Lançamento</p>
+                    <p class="product-name">Apple Watch Series 10</p>
+                    <p class="product-description">
+                        Descubra o poder de ter mais saúde, praticidade e estilo no seu pulso. Com o novo Apple Watch Series 9, você controla sua vida com um toque — ou nem isso.</p>
+                    <button class="btn">Saiba Mais</button>
                 </div>
             </div>
 
             <div class="item">
+                <div class="product-img">
+                    <img src="img/air-pods.png" alt="imagem de fone de ouvido">
+                </div>
 
+                <div class="content">
+                    <p class="product-tag">O som elevado ao extremo</p>
+                    <p class="product-name"> AirPods Max</p>
+                    <p class="product-description">
+                        Descubra o equilíbrio perfeito entre tecnologia de ponta, conforto absoluto e som imersivo.
+                        Os AirPods Max foram projetados para quem exige o melhor — em todos os sentidos.</p>
+                    <button class="btn">Saiba Mais</button>
+                </div>
             </div>
 
             <div class="item">
+                <div class="product-img">
+                    <img src="img/vision-pro.png" alt="imagem de óculos vision pro">
+                </div>
 
+                <div class="content">
+                    <p class="product-tag">A revolução da computação espacial começou</p>
+                    <p class="product-name">Apple Vision Pro</p>
+                    <p class="product-description">
+                        O Apple Vision Pro redefine a forma como você trabalha, se comunica e se diverte — com uma experiência tão imersiva que parece mágica.</p>
+                    <button class="btn">Saiba Mais</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="arrows">
+            <button class="arrow-btn" id="prev">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-left-fill" viewBox="0 0 16 16">
+                <path d="m3.86 8.753 5.482 4.796c.646.566 1.658.106 1.658-.753V3.204a1 1 0 0 0-1.659-.753l-5.48 4.796a1 1 0 0 0 0 1.506z"/>
+                </svg>
+            </button>
+            <button class="arrow-btn" id="next">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+                <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
+                </svg>
+            </button>
+        </div>
+
+        <div class="indicators">
+            <div class="numbers">01</div>
+            <div class="dots">
+                <div class="dot active"></div>
+                <div class="dot"></div>
+                <div class="dot"></div>
             </div>
         </div>
     </main>

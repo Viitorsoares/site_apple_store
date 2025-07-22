@@ -1,10 +1,11 @@
-# site_apple_store
-
 <div style="display: inline_block">
   <img aling="center alt="html5" src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
   <img aling="center alt="css3" src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
   <img aling="center alt="javascript" src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E"/>
 </div><br/>
+
+# Site da Apple Store
+
 
 O projeto desenvolvido consiste em um site moderno da Apple Store, focado na exibição de produtos icônicos da marca, como iPhones, iPads, Apple Watch, Apple Vision Pro e MacBooks. Utilizando HTML, foi estruturado um layout limpo e organizado, com seções bem definidas para apresentação dos produtos e navegação intuitiva, simulando a experiência de um e-commerce real.
 
